@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'GlassDrop — Ephemeral file & text sharing',
+  title: 'FLUXO — Ephemeral file & text sharing',
   description:
     'Share files, text and links in seconds. Every session self-destructs after 2 minutes and is permanently purged.',
   generator: 'v0.app',

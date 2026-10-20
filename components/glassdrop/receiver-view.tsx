@@ -178,7 +178,7 @@ function FileList({ id, code, files }: { id: string; code: string; files: Public
       )
       const blob = await zip.generateAsync({ type: 'blob' })
       const url = URL.createObjectURL(blob)
-      triggerDownload(url, `glassdrop-${code}.zip`)
+      triggerDownload(url, `fluxo-${code}.zip`)
       setTimeout(() => URL.revokeObjectURL(url), 10_000)
       toast('Download started')
     } catch {

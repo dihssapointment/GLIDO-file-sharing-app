@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { ReceiverView } from '@/components/glassdrop/receiver-view'
 
 export const metadata: Metadata = {
-  title: 'Incoming drop — GlassDrop',
+  title: 'Incoming drop — FLUXO',
   robots: { index: false, follow: false },
 }
 

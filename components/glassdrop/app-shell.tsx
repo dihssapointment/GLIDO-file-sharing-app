@@ -23,8 +23,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <main className="mx-auto flex w-full max-w-xl flex-col px-4 pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-4 sm:pt-10">
         {children}
       </main>
-      <footer className="mx-auto max-w-xl px-4 pb-8 text-center text-xs text-muted-foreground">
-        Every session self-destructs after 2 minutes. Nothing is kept.
+      <footer className="mx-auto flex max-w-xl flex-col items-center gap-2 px-4 pb-8 text-center text-xs text-muted-foreground">
+        <p>Every session self-destructs after 2 minutes. Nothing is kept.</p>
+        <p className="font-light tracking-wide text-zinc-500">Created by Naman</p>
       </footer>
     </div>
   )
